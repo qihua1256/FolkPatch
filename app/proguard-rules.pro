@@ -53,6 +53,22 @@
     public static void throw*(...);
 }
 
+# Keep Umount configuration classes
+-keep class me.bmax.apatch.ui.component.UmountConfig { *; }
+-keep class me.bmax.apatch.ui.component.UmountConfigManager { *; }
+-keep class me.bmax.apatch.ui.screen.UmountConfigScreen { *; }
+
+-keepclassmembers class me.bmax.apatch.ui.component.UmountConfigManager {
+    public static *;
+}
+
+-keepclassmembers class me.bmax.apatch.ui.component.UmountConfig {
+    public <init>(boolean, java.lang.String);
+}
+
+# Keep Umount destination
+-keep class me.bmax.apatch.ui.screen.destinations.UmountConfigScreenDestination { *; }
+
 -repackageclasses
 -allowaccessmodification
 -overloadaggressively

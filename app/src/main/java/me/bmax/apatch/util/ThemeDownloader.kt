@@ -398,7 +398,20 @@ class ThemeDownloader(private val context: Context) {
      * 取消下载
      */
     suspend fun cancelDownload(themeId: String) {
-        downloadTasks[themeId]?.isCancelled = true
+        val task = downloadTasks[themeId]
+        if (task != null) {
+            task.isCancelled = true
+            
+            // 删除已下载的文件和目录
+            withContext(Dispatchers.IO) {
+                val themeDir = getThemePath(task.theme.author, task.theme.name)
+                if (themeDir.exists()) {
+                    themeDir.deleteRecursively()
+                    Log.d(TAG, "Cancelled download, deleted theme directory: ${themeDir.absolutePath}")
+                }
+            }
+        }
+        
         progressMutex.withLock {
             val currentMap = _downloadProgress.value.toMutableMap()
             currentMap.remove(themeId)

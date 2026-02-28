@@ -869,6 +869,17 @@ Pastikan aplikasi ditutup sepenuhnya dan dimulai ulang untuk menjalankan perinta
     <string name="umount_config_save_success">Konfigurasi berhasil disimpan</string>
     <string name="umount_config_save_failed">Gagal menyimpan konfigurasi</string>
 
+    <!-- Halaman Tema Saya -->
+    <string name="my_themes_title">Tema Saya</string>
+    <string name="my_themes_empty">Belum ada tema</string>
+    <string name="my_themes_empty_action">Jelajahi Toko Tema</string>
+    <string name="my_themes_apply">Terapkan Tema</string>
+    <string name="my_themes_delete">Hapus Tema</string>
+    <string name="my_themes_delete_confirm">Apakah Anda yakin ingin menghapus tema ini?</string>
+    <string name="my_themes_deleted">Tema dihapus</string>
+    <string name="my_themes_applied">Tema diterapkan</string>
+    <string name="my_themes_details">Detail Tema</string>
+
     <!-- Dialog Unduh -->
     <string name="theme_download_title">Mengunduh Tema</string>
     <string name="theme_download_completed">Unduhan selesai</string>

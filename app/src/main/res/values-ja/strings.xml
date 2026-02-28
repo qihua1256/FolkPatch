@@ -792,6 +792,17 @@
     <string name="umount_config_save_success">設定を保存しました</string>
     <string name="umount_config_save_failed">設定の保存に失敗しました</string>
 
+    <!-- マイテーマページ -->
+    <string name="my_themes_title">マイテーマ</string>
+    <string name="my_themes_empty">まだテーマがありません</string>
+    <string name="my_themes_empty_action">テーマストアを見る</string>
+    <string name="my_themes_apply">テーマを適用</string>
+    <string name="my_themes_delete">テーマを削除</string>
+    <string name="my_themes_delete_confirm">このテーマを削除してもよろしいですか？</string>
+    <string name="my_themes_deleted">テーマを削除しました</string>
+    <string name="my_themes_applied">テーマを適用しました</string>
+    <string name="my_themes_details">テーマの詳細</string>
+
     <!-- ダウンロードダイアログ -->
     <string name="theme_download_title">テーマをダウンロード中</string>
     <string name="theme_download_completed">ダウンロード完了</string>

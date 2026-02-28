@@ -890,6 +890,17 @@ Por ejemplo, los KPM que previenen la modificación de particiones solo pueden u
     <string name="umount_config_save_success">Configuración guardada exitosamente</string>
     <string name="umount_config_save_failed">Error al guardar configuración</string>
 
+    <!-- Página Mis Temas -->
+    <string name="my_themes_title">Mis Temas</string>
+    <string name="my_themes_empty">Aún no hay temas</string>
+    <string name="my_themes_empty_action">Explorar Tienda de Temas</string>
+    <string name="my_themes_apply">Aplicar Tema</string>
+    <string name="my_themes_delete">Eliminar Tema</string>
+    <string name="my_themes_delete_confirm">¿Estás seguro de que quieres eliminar este tema?</string>
+    <string name="my_themes_deleted">Tema eliminado</string>
+    <string name="my_themes_applied">Tema aplicado</string>
+    <string name="my_themes_details">Detalles del Tema</string>
+
     <!-- Diálogo de Descarga -->
     <string name="theme_download_title">Descargando Tema</string>
     <string name="theme_download_completed">Descarga completada</string>

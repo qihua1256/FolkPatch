@@ -887,6 +887,17 @@
     <string name="umount_config_save_success">Конфигурация успешно сохранена</string>
     <string name="umount_config_save_failed">Не удалось сохранить конфигурацию</string>
 
+    <!-- Страница Мои Темы -->
+    <string name="my_themes_title">Мои темы</string>
+    <string name="my_themes_empty">Тем пока нет</string>
+    <string name="my_themes_empty_action">Посетить магазин тем</string>
+    <string name="my_themes_apply">Применить тему</string>
+    <string name="my_themes_delete">Удалить тему</string>
+    <string name="my_themes_delete_confirm">Вы уверены, что хотите удалить эту тему?</string>
+    <string name="my_themes_deleted">Тема удалена</string>
+    <string name="my_themes_applied">Тема применена</string>
+    <string name="my_themes_details">Детали темы</string>
+
     <!-- Диалог Загрузки -->
     <string name="theme_download_title">Загрузка темы</string>
     <string name="theme_download_completed">Загрузка завершена</string>

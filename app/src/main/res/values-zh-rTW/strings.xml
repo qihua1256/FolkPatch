@@ -876,6 +876,17 @@
     <string name="umount_config_save_success">配置儲存成功</string>
     <string name="umount_config_save_failed">配置儲存失敗</string>
 
+    <!-- 我的主題頁面 -->
+    <string name="my_themes_title">我的主題</string>
+    <string name="my_themes_empty">暫無主題</string>
+    <string name="my_themes_empty_action">逛逛主題商店</string>
+    <string name="my_themes_apply">應用主題</string>
+    <string name="my_themes_delete">刪除主題</string>
+    <string name="my_themes_delete_confirm">確定要刪除此主題嗎？</string>
+    <string name="my_themes_deleted">主題已刪除</string>
+    <string name="my_themes_applied">主題已應用</string>
+    <string name="my_themes_details">主題詳情</string>
+
     <!-- 下載對話框 -->
     <string name="theme_download_title">正在下載主題</string>
     <string name="theme_download_completed">下載完成</string>

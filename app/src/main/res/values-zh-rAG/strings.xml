@@ -873,6 +873,17 @@
     <string name="umount_config_save_success">配置保存成功喵</string>
     <string name="umount_config_save_failed">配置保存失败喵</string>
 
+    <!-- 我的主题页面喵 -->
+    <string name="my_themes_title">我的主题喵</string>
+    <string name="my_themes_empty">还没有主题喵</string>
+    <string name="my_themes_empty_action">去主题商店逛逛喵</string>
+    <string name="my_themes_apply">应用主题喵</string>
+    <string name="my_themes_delete">删除主题喵</string>
+    <string name="my_themes_delete_confirm">真的要删掉这个主题喵？</string>
+    <string name="my_themes_deleted">主题删掉了喵</string>
+    <string name="my_themes_applied">主题应用了喵</string>
+    <string name="my_themes_details">主题详情喵</string>
+
     <!-- 下载对话喵 -->
     <string name="theme_download_title">正在下载主题喵</string>
     <string name="theme_download_completed">下载完成了喵</string>

@@ -873,6 +873,17 @@
     <string name="umount_config_save_success">魔法施展成功，配置已保存</string>
     <string name="umount_config_save_failed">魔法施展失败，配置保存失败</string>
 
+    <!-- 我的魔法领域页面 -->
+    <string name="my_themes_title">我的魔法领域</string>
+    <string name="my_themes_empty">魔法领域空荡荡的</string>
+    <string name="my_themes_empty_action">去魔法商店逛逛</string>
+    <string name="my_themes_apply">施展主题</string>
+    <string name="my_themes_delete">遗忘主题</string>
+    <string name="my_themes_delete_confirm">确定要遗忘这个主题魔法吗？</string>
+    <string name="my_themes_deleted">主题已遗忘</string>
+    <string name="my_themes_applied">主题已施展</string>
+    <string name="my_themes_details">主题魔法详情</string>
+
     <!-- 下载对话框 -->
     <string name="theme_download_title">正在召唤主题</string>
     <string name="theme_download_completed">召唤完成</string>

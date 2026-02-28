@@ -871,6 +871,17 @@
     <string name="umount_config_save_success">丹成，丹方保存成功</string>
     <string name="umount_config_save_failed">炉火不旺，丹方保存失败</string>
 
+    <!-- 我的仙府页面 -->
+    <string name="my_themes_title">我的仙府</string>
+    <string name="my_themes_empty">仙府空空如也</string>
+    <string name="my_themes_empty_action">前往仙市逛逛</string>
+    <string name="my_themes_apply">施展主题</string>
+    <string name="my_themes_delete">舍弃主题</string>
+    <string name="my_themes_delete_confirm">确定要舍弃此主题仙卷吗？</string>
+    <string name="my_themes_deleted">主题已舍弃</string>
+    <string name="my_themes_applied">主题已施展</string>
+    <string name="my_themes_details">主题仙卷详情</string>
+
     <!-- 下载对话 -->
     <string name="theme_download_title">正在纳符主题</string>
     <string name="theme_download_completed">纳符圆满</string>

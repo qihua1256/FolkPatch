@@ -871,6 +871,17 @@
     <string name="umount_config_save_success">开炉成功，食谱保存成功</string>
     <string name="umount_config_save_failed">厨师长反对，食谱保存失败</string>
 
+    <!-- 我的餐厅页面 -->
+    <string name="my_themes_title">我的餐厅</string>
+    <string name="my_themes_empty">餐厅还没装修呢</string>
+    <string name="my_themes_empty_action">去主题商店看看</string>
+    <string name="my_themes_apply">应用主题</string>
+    <string name="my_themes_delete">删除主题</string>
+    <string name="my_themes_delete_confirm">确定要删除这个主题吗？</string>
+    <string name="my_themes_deleted">主题已删除</string>
+    <string name="my_themes_applied">主题已应用</string>
+    <string name="my_themes_details">主题详情</string>
+
     <!-- 下载对话 -->
     <string name="theme_download_title">正在采购主题</string>
     <string name="theme_download_completed">采购完成</string>

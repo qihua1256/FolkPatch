@@ -874,6 +874,17 @@
     <string name="umount_config_save_success">圣言已传达，配置保存成功</string>
     <string name="umount_config_save_failed">圣言传达失败，配置保存失败</string>
 
+    <!-- 我的圣域页面 -->
+    <string name="my_themes_title">我的圣域</string>
+    <string name="my_themes_empty">圣域尚未装饰</string>
+    <string name="my_themes_empty_action">前往圣光商店</string>
+    <string name="my_themes_apply">施展主题</string>
+    <string name="my_themes_delete">净化主题</string>
+    <string name="my_themes_delete_confirm">确定要净化此主题圣物吗？</string>
+    <string name="my_themes_deleted">主题已净化</string>
+    <string name="my_themes_applied">主题已施展</string>
+    <string name="my_themes_details">主题圣物详情</string>
+
     <!-- 下载圣光阵 -->
     <string name="theme_download_title">正在祈召主题</string>
     <string name="theme_download_completed">祈召完成</string>

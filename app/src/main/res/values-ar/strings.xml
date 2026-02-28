@@ -875,6 +875,17 @@
     <string name="umount_config_save_success">تم حفظ التكوين بنجاح</string>
     <string name="umount_config_save_failed">فشل حفظ التكوين</string>
 
+    <!-- صفحة سماتي -->
+    <string name="my_themes_title">سماتي</string>
+    <string name="my_themes_empty">لا توجد سمات بعد</string>
+    <string name="my_themes_empty_action">تصفح متجر السمات</string>
+    <string name="my_themes_apply">تطبيق السمة</string>
+    <string name="my_themes_delete">حذف السمة</string>
+    <string name="my_themes_delete_confirm">هل أنت متأكد من حذف هذه السمة؟</string>
+    <string name="my_themes_deleted">تم حذف السمة</string>
+    <string name="my_themes_applied">تم تطبيق السمة</string>
+    <string name="my_themes_details">تفاصيل السمة</string>
+
     <!-- حوار التنزيل -->
     <string name="theme_download_title">جارٍ تنزيل السمة</string>
     <string name="theme_download_completed">اكتمل التنزيل</string>

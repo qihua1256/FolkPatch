@@ -882,6 +882,17 @@ Komutların çalışması için uygulamanın tamamen kapatılıp yeniden açıld
     <string name="umount_config_save_success">Yapılandırma başarıyla kaydedildi</string>
     <string name="umount_config_save_failed">Yapılandırma kaydedilemedi</string>
 
+    <!-- My Themes Page -->
+    <string name="my_themes_title">Temalarım</string>
+    <string name="my_themes_empty">Henüz tema yok</string>
+    <string name="my_themes_empty_action">Tema Mağazasına Göz At</string>
+    <string name="my_themes_apply">Temayı Uygula</string>
+    <string name="my_themes_delete">Temayı Sil</string>
+    <string name="my_themes_delete_confirm">Bu temayı silmek istediğinizden emin misiniz?</string>
+    <string name="my_themes_deleted">Tema silindi</string>
+    <string name="my_themes_applied">Tema uygulandı</string>
+    <string name="my_themes_details">Tema Detayları</string>
+
     <!-- İndirme Diyaloğu -->
     <string name="theme_download_title">Tema İndiriliyor</string>
     <string name="theme_download_completed">İndirme tamamlandı</string>

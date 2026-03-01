@@ -338,9 +338,10 @@ tasks.register<Exec>("buildHideArm64") {
 
     val sourceFile = rootProject.file("FolkS/Hide.zig")
     val outputFile = file("src/main/assets/Service/Hide")
+    val umountFile = file("src/main/assets/Service/Umount")
 
     onlyIf {
-        !outputFile.exists() || sourceFile.lastModified() > outputFile.lastModified()
+        !(outputFile.exists() && umountFile.exists()) && (!outputFile.exists() || sourceFile.lastModified() > outputFile.lastModified())
     }
 
     doFirst {
@@ -383,9 +384,10 @@ tasks.register<Exec>("buildUmountArm64") {
 
     val sourceFile = rootProject.file("FolkS/Umount.zig")
     val outputFile = file("src/main/assets/Service/Umount")
+    val hideFile = file("src/main/assets/Service/Hide")
 
     onlyIf {
-        !outputFile.exists() || sourceFile.lastModified() > outputFile.lastModified()
+        !(outputFile.exists() && hideFile.exists()) && (!outputFile.exists() || sourceFile.lastModified() > outputFile.lastModified())
     }
 
     doFirst {

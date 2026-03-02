@@ -274,8 +274,6 @@
     <string name="settings_apm_stay_on_page_summary">Não retornar automaticamente após execução de ação no módulo</string>
     <string name="settings_enable_module_shortcut_add">Ativar botão de adicionar atalho</string>
     <string name="settings_enable_module_shortcut_add_summary">Mostrar botão de adicionar atalho WebUI na página de módulos do sistema</string>
-    <string name="settings_show_disable_all_modules">Botão \'Desativar Todos\'</string>
-    <string name="settings_show_disable_all_modules_summary">Exibir um botão na página de módulos para desativar todos de uma vez</string>
     <string name="settings_module_sort_optimization">Otimização de Ordem dos Módulos</string>
     <string name="settings_module_sort_optimization_summary">Fazer módulos de sistema com WebUI e Ação aparecerem no topo</string>
     <string name="settings_fold_system_module">Dobrar Módulos do Sistema</string>
@@ -285,7 +283,7 @@
     <string name="apm_install_confirm_title">Instalar Módulo</string>
     <string name="apm_install_confirm_content">Tem certeza de que deseja instalar %s?</string>
     <string name="apm_disable_all_title">Desativar Todos os Módulos</string>
-    <string name="apm_disable_all_confirm">Tem certeza de que deseja desativar todos os módulos? Geralmente, isso é feito antes de uma atualização OTA.</string>
+    <string name="apm_disable_all_confirm">Tem certeza de que deseja desativar todos os módulos? Isso desativará todos os módulos instalados.</string>
     <string name="apm_enable_module_banner">Ativar banner de módulo</string>
     <string name="apm_enable_module_banner_summary">Exibir imagem de banner para módulos se disponível</string>
     <string name="apm_enable_folk_banner">Personalizar banner de módulo</string>

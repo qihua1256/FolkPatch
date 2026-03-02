@@ -226,8 +226,6 @@
     <string name="settings_apm_stay_on_page_summary">モジュールのアクションを実行後に自動で戻らなくなります。</string>
     <string name="settings_enable_module_shortcut_add">ショートカット追加ボタンを有効化</string>
     <string name="settings_enable_module_shortcut_add_summary">WebUI ショートカット追加ボタンを表示</string>
-    <string name="settings_show_disable_all_modules">「すべてのモジュールを無効化」ボタンを表示</string>
-    <string name="settings_show_disable_all_modules_summary">モジュールページにすべてモジュールを無効化するボタンを表示します。</string>
     <string name="settings_disable_module_update_check">モジュールの更新の確認を無効化する</string>
     <string name="settings_disable_module_update_check_summary">システムモジュールの自動更新の確認を無効化します。</string>
     <string name="settings_module_sort_optimization">モジュールの並べ替えを最適化</string>
@@ -246,7 +244,7 @@
     <string name="module_shortcut_type_action">アクション</string>
     <string name="module_shortcut_icon_default">デフォルトのアイコンを使用</string>
     <string name="module_shortcut_icon_select">アイコンを選択</string>
-    <string name="apm_disable_all_confirm">すべてのモジュールを無効化してもよろしいですか？通常は OTA アップデートの前に行われます。</string>
+    <string name="apm_disable_all_confirm">すべてのモジュールを無効化してもよろしいですか？これにより、インストール済みのすべてのモジュールが無効になります</string>
     <string name="apm_enable_module_banner">モジュールバナーを有効化</string>
     <string name="apm_enable_module_banner_summary">モジュールのバナー画像が利用可能な場合に表示します。</string>
     <string name="apm_enable_folk_banner">カスタムモジュールバナー</string>

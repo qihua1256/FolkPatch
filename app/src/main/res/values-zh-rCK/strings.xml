@@ -254,8 +254,6 @@
     <string name="settings_apm_stay_on_page_summary">招牌菜执行完烹饪操作后不自动返回</string>
     <string name="settings_enable_module_shortcut_add">启用快捷添加按钮</string>
     <string name="settings_enable_module_shortcut_add_summary">显示 WebUI 快捷方式添加按钮</string>
-    <string name="settings_show_disable_all_modules">显示"禁用全部招牌菜"按钮</string>
-    <string name="settings_show_disable_all_modules_summary">在招牌菜页面显示一键禁用所有招牌菜的按钮</string>
     <string name="settings_disable_module_update_check">禁用招牌菜菜谱更新检查</string>
     <string name="settings_disable_module_update_check_summary">禁用招牌菜的自动菜谱更新检查</string>
     <string name="settings_module_sort_optimization">招牌菜排序优化</string>
@@ -274,7 +272,7 @@
     <string name="apm_install_confirm_title">烹饪招牌菜</string>
     <string name="apm_install_confirm_content">确定要烹饪 %s 吗？</string>
     <string name="apm_disable_all_title">禁用所有招牌菜</string>
-    <string name="apm_disable_all_confirm">确定禁用全部招牌菜吗？一般来说在 OTA 菜谱更新前才这么做。</string>
+    <string name="apm_disable_all_confirm">确定禁用全部招牌菜吗？此操作将停用所有已安装的招牌菜</string>
     <string name="apm_enable_module_banner">启用招牌菜横幅</string>
     <string name="apm_enable_module_banner_summary">为支持的招牌菜显示横幅图片</string>
     <string name="apm_enable_folk_banner">自定义招牌菜横幅</string>

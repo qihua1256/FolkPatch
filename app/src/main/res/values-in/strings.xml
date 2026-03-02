@@ -267,8 +267,6 @@
     <string name="settings_apm_install_confirm_summary">Tampilkan dialog konfirmasi sebelum menginstal modul</string>
     <string name="settings_enable_module_shortcut_add">Aktifkan tombol tambah pintasan</string>
     <string name="settings_enable_module_shortcut_add_summary">Tampilkan tombol tambah pintasan WebUI di halaman modul sistem</string>
-    <string name="settings_show_disable_all_modules">Tampilkan tombol "Nonaktifkan semua modul"</string>
-    <string name="settings_show_disable_all_modules_summary">Tampilkan tombol di halaman modul untuk menonaktifkan semua modul secara bersamaan</string>
     <string name="settings_module_sort_optimization">Optimasi Pengurutan Modul</string>
     <string name="settings_module_sort_optimization_summary">Jadikan modul sistem dengan WebUI dan Action muncul di bagian atas</string>
     <string name="settings_fold_system_module">Lipat Modul Sistem</string>
@@ -280,7 +278,7 @@
     <string name="apm_install_confirm_title">Instal modul</string>
     <string name="apm_install_confirm_content">Apakah Anda yakin ingin tetap menginstal %s?</string>
     <string name="apm_disable_all_title">Nonaktifkan semua modul</string>
-    <string name="apm_disable_all_confirm">Apakah Anda yakin ingin menonaktifkan semua modul? Ini biasanya dilakukan sebelum pembaruan OTA.</string>
+    <string name="apm_disable_all_confirm">Apakah Anda yakin ingin menonaktifkan semua modul? Ini akan menonaktifkan semua modul yang terinstall.</string>
     <string name="apm_enable_module_banner">Aktifkan banner modul</string>
     <string name="apm_enable_module_banner_summary">Tampilkan gambar banner untuk modul jika tersedia</string>
     <string name="apm_enable_folk_banner">Kustomisasi banner modul</string>

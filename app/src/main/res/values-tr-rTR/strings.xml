@@ -259,8 +259,6 @@
     <string name="settings_apm_stay_on_page_summary">Modül işlemi tamamlandıktan sonra otomatik geri dönme</string>
     <string name="settings_enable_module_shortcut_add">Kısayol ekleme düğmesini etkinleştir</string>
     <string name="settings_enable_module_shortcut_add_summary">WebUI kısayol ekleme düğmesini göster</string>
-    <string name="settings_show_disable_all_modules">\'Tüm Modülleri Devre Dışı Bırak\' düğmesini göster</string>
-    <string name="settings_show_disable_all_modules_summary">Modüller sayfasında tüm modülleri tek seferde devre dışı bırakmak için bir düğme göster</string>
     <string name="settings_disable_module_update_check">Modül güncelleme kontrolünü devre dışı bırak</string>
     <string name="settings_disable_module_update_check_summary">Sistem modülleri için otomatik güncelleme kontrolünü kapat</string>
     <string name="settings_module_sort_optimization">Modül Sıralama Optimizasyonu</string>
@@ -279,7 +277,7 @@
     <string name="module_shortcut_type_action">Eylem</string>
     <string name="module_shortcut_icon_default">Varsayılan simgeyi kullan</string>
     <string name="module_shortcut_icon_select">Simge seç</string>
-    <string name="apm_disable_all_confirm">Tüm modülleri devre dışı bırakmak istediğinize emin misiniz? Genellikle bu işlem OTA güncellemesi öncesinde yapılır.</string>
+    <string name="apm_disable_all_confirm">Tüm modülleri devre dışı bırakmak istediğinize emin misiniz? Bu, yüklü tüm modülleri devre dışı bırakacaktır.</string>
     <string name="apm_enable_module_banner">Modül Banner’ını Etkinleştir</string>
     <string name="apm_enable_module_banner_summary">Mevcutsa modüller için banner görseli göster</string>
     <string name="apm_enable_folk_banner">Modül Banner’ını Özelleştir</string>

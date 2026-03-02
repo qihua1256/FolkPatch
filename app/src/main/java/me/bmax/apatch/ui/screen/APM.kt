@@ -839,9 +839,6 @@ private fun TopBar(
     val cancel = stringResource(android.R.string.cancel)
     val context = LocalContext.current
 
-    var showDisableAllButton by remember {
-        mutableStateOf(APApplication.sharedPreferences.getBoolean("show_disable_all_modules", false))
-    }
     var showMenu by remember { mutableStateOf(false) }
 
     val backupLauncher = rememberLauncherForActivityResult(ActivityResultContracts.CreateDocument("application/gzip")) { uri ->
@@ -860,45 +857,12 @@ private fun TopBar(
         }
     }
 
-    DisposableEffect(Unit) {
-        val listener = SharedPreferences.OnSharedPreferenceChangeListener { prefs, key ->
-            if (key == "show_disable_all_modules") {
-                showDisableAllButton = prefs.getBoolean("show_disable_all_modules", false)
-            }
-        }
-        APApplication.sharedPreferences.registerOnSharedPreferenceChangeListener(listener)
-        onDispose {
-            APApplication.sharedPreferences.unregisterOnSharedPreferenceChangeListener(listener)
-        }
-    }
-
     SearchAppBar(
         title = { Text(stringResource(R.string.apm)) },
         searchText = searchQuery,
         onSearchTextChange = onSearchQueryChange,
         onClearClick = { onSearchQueryChange("") },
         leadingActions = {
-            if (showDisableAllButton) {
-                androidx.compose.material3.IconButton(onClick = {
-                    scope.launch {
-                        if (!checkStrongBiometric()) return@launch
-                        val result = confirmDialog.awaitConfirm(
-                            title = disableAllTitle,
-                            content = disableAllConfirm,
-                            confirm = confirm,
-                            dismiss = cancel
-                        )
-                        if (result == ConfirmResult.Confirmed) {
-                            viewModel.disableAllModules()
-                        }
-                    }
-                }) {
-                    Icon(
-                        imageVector = Icons.Filled.DeleteSweep,
-                        contentDescription = disableAllTitle
-                    )
-                }
-            }
             androidx.compose.material3.IconButton(onClick = {
                 navigator.navigate(OnlineModuleScreenDestination)
             }) {
@@ -923,6 +887,24 @@ private fun TopBar(
                     expanded = showMenu,
                     onDismissRequest = { showMenu = false }
                 ) {
+                    WallpaperAwareDropdownMenuItem(
+                        text = { Text(stringResource(R.string.apm_disable_all_title)) },
+                        onClick = {
+                            showMenu = false
+                            scope.launch {
+                                if (!checkStrongBiometric()) return@launch
+                                val result = confirmDialog.awaitConfirm(
+                                    title = disableAllTitle,
+                                    content = disableAllConfirm,
+                                    confirm = confirm,
+                                    dismiss = cancel
+                                )
+                                if (result == ConfirmResult.Confirmed) {
+                                    viewModel.disableAllModules()
+                                }
+                            }
+                        }
+                    )
                     WallpaperAwareDropdownMenuItem(
                         text = { Text(stringResource(R.string.apm_backup_title)) },
                         onClick = {

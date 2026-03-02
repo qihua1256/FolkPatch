@@ -274,8 +274,6 @@
     <string name="settings_apm_stay_on_page_summary">عدم الرجوع تلقائيًا بعد تنفيذ إجراء الوحدة</string>
     <string name="settings_enable_module_shortcut_add">تمكين زر إضافة اختصار</string>
     <string name="settings_enable_module_shortcut_add_summary">إظهار زر إضافة اختصار واجهة المستخدم الرسومية للويب</string>
-    <string name="settings_show_disable_all_modules">إظهار زر "تعطيل كل الوحدات"</string>
-    <string name="settings_show_disable_all_modules_summary">عرض زر في صفحة الوحدات لتعطيل جميع الوحدات مرة واحدة</string>
     <string name="settings_module_sort_optimization">تحسين فرز الوحدات</string>
     <string name="settings_module_sort_optimization_summary">جعل وحدات النظام مع واجهة المستخدم الرسومية للويب والإجراء تظهر في الأعلى</string>
     <string name="settings_fold_system_module">طي وحدات النظام</string>
@@ -285,7 +283,7 @@
     <string name="apm_install_confirm_title">تثبيت الوحدة</string>
     <string name="apm_install_confirm_content">هل أنت متأكد من أنك تريد تثبيت %s؟</string>
     <string name="apm_disable_all_title">تعطيل كل الوحدات</string>
-    <string name="apm_disable_all_confirm">هل أنت متأكد من أنك تريد تعطيل جميع الوحدات؟ بشكل عام، يتم ذلك قبل تحديث OTA.</string>
+    <string name="apm_disable_all_confirm">هل أنت متأكد من أنك تريد تعطيل جميع الوحدات؟ سيقوم هذا بتعطيل جميع الوحدات المثبتة.</string>
     <string name="apm_enable_module_banner">تمكين لافتة الوحدة</string>
     <string name="apm_enable_module_banner_summary">عرض صورة اللافتة للوحدات إذا كانت متوفرة</string>
     <string name="apm_enable_folk_banner">تخصيص لافتة الوحدة</string>

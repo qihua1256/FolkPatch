@@ -267,8 +267,6 @@
     <string name="settings_apm_install_confirm_summary">Показывать диалог подтверждения перед установкой модулей</string>
     <string name="settings_enable_module_shortcut_add">Включить кнопку добавления ярлыка</string>
     <string name="settings_enable_module_shortcut_add_summary">Показать кнопку добавления ярлыка WebUI на странице системных модулей</string>
-    <string name="settings_show_disable_all_modules">Показать кнопку "Отключить все модули"</string>
-    <string name="settings_show_disable_all_modules_summary">Отображать кнопку на странице модулей для отключения всех модулей одновременно</string>
     <string name="settings_module_sort_optimization">Оптимизация сортировки модулей</string>
     <string name="settings_module_sort_optimization_summary">Разместить системные модули с WebUI и Action в начале списка</string>
     <string name="settings_fold_system_module">Свернуть системные модули</string>
@@ -280,7 +278,7 @@
     <string name="apm_install_confirm_title">Установить модуль</string>
     <string name="apm_install_confirm_content">Вы уверены, что хотите установить %s?</string>
     <string name="apm_disable_all_title">Отключить все модули</string>
-    <string name="apm_disable_all_confirm">Вы уверены, что хотите отключить все модули? Обычно это делается перед обновлением OTA.</string>
+    <string name="apm_disable_all_confirm">Вы уверены, что хотите отключить все модули? Это приведёт к отключению всех установленных модулей.</string>
     <string name="apm_enable_module_banner">Включить баннер модуля</string>
     <string name="apm_enable_module_banner_summary">Отображать изображение баннера для модулей если доступно</string>
     <string name="apm_enable_folk_banner">Настроить баннер модуля</string>

@@ -260,9 +260,7 @@
     <string name="settings_apm_stay_on_page">留于渡劫措置台</string>
     <string name="settings_apm_stay_on_page_summary">天道仙符渡劫措置毕，不自动返仙府</string>
     <string name="settings_enable_module_shortcut_add">启遁仙符添加仙钮</string>
-    <string name="settings_enable_module_shortcut_add_summary">于天界仙符台，显WebUI遁仙符添加之仙钮</string>
-    <string name="settings_show_disable_all_modules">显「禁诸仙符」仙钮</string>
-    <string name="settings_show_disable_all_modules_summary">于仙符台，显一键禁诸仙符之仙钮</string>
+    <string name="settings_enable_module_shortcut_add_summary">于天界仙符台，显 WebUI 遁仙符添加之仙钮</string>
     <string name="apm_install_confirm_title">凝符入体</string>
     <string name="apm_install_confirm_content">道友确欲凝炼%s仙符入体乎？</string>
     <string name="settings_show_more_module_info">显仙符详录</string>
@@ -274,7 +272,7 @@
         <string name="settings_simple_list_bottom_bar">简约仙符底栏</string>
         <string name="settings_simple_list_bottom_bar_summary">仙符符法使用纯图标按钮样式，灵感来自APatch</string>
     <string name="apm_disable_all_title">禁诸仙符</string>
-    <string name="apm_disable_all_confirm">确欲尽禁诸仙符乎？大抵天道易筋前为之可避天劫。</string>
+    <string name="apm_disable_all_confirm">确欲尽禁诸仙符乎？此术将废诸已施之仙符</string>
     <string name="apm_enable_module_banner">启仙阵横幅</string>
     <string name="apm_enable_module_banner_summary">为所容之仙阵显横幅仙图</string>
     <string name="apm_enable_folk_banner">自定仙阵横幅</string>

@@ -41,10 +41,6 @@ fun BehaviorSettings(
     val installConfirmSummary = stringResource(id = R.string.settings_apm_install_confirm_summary)
     val showInstallConfirm = aPatchReady && (matchBehavior || shouldShow(searchText, installConfirmTitle, installConfirmSummary))
 
-    val disableModulesTitle = stringResource(id = R.string.settings_show_disable_all_modules)
-    val disableModulesSummary = stringResource(id = R.string.settings_show_disable_all_modules_summary)
-    val showDisableModules = aPatchReady && (matchBehavior || shouldShow(searchText, disableModulesTitle, disableModulesSummary))
-
     val enableModuleShortcutAddTitle = stringResource(id = R.string.settings_enable_module_shortcut_add)
     val enableModuleShortcutAddSummary = stringResource(id = R.string.settings_enable_module_shortcut_add_summary)
     val showEnableModuleShortcutAdd = aPatchReady && (matchBehavior || shouldShow(searchText, enableModuleShortcutAddTitle, enableModuleShortcutAddSummary))
@@ -104,7 +100,7 @@ fun BehaviorSettings(
     
     val showBadgeSettings = kPatchReady && (matchBehavior || shouldShow(searchText, badgeCountTitle, badgeCountSummary, showSuperUserBadgeTitle, showApmBadgeTitle, showKernelBadgeTitle))
 
-    val showBehaviorCategory = showWebDebugging || showInstallConfirm || showDisableModules || showEnableModuleShortcutAdd || showStayOnPage || showHideApatch || showHideSu || showHideKpatch || showHideFingerprint || showHideZygisk || showHideMount || showUseLegacySuPage || showBadgeSettings
+    val showBehaviorCategory = showWebDebugging || showInstallConfirm || showEnableModuleShortcutAdd || showStayOnPage || showHideApatch || showHideSu || showHideKpatch || showHideFingerprint || showHideZygisk || showHideMount || showUseLegacySuPage || showBadgeSettings
 
     if (showBehaviorCategory) {
         SettingsCategory(icon = Icons.Filled.Visibility, title = behaviorTitle, isSearching = searchText.isNotEmpty()) {
@@ -135,21 +131,6 @@ fun BehaviorSettings(
                     onCheckedChange = {
                         installConfirm = it
                         prefs.edit().putBoolean("apm_install_confirm_enabled", it).apply()
-                    }
-                )
-            }
-
-            // Disable Modules
-            if (showDisableModules) {
-                var showDisableAllModules by remember { mutableStateOf(prefs.getBoolean("show_disable_all_modules", false)) }
-                SwitchItem(
-                    icon = Icons.Filled.CloudOff,
-                    title = disableModulesTitle,
-                    summary = disableModulesSummary,
-                    checked = showDisableAllModules,
-                    onCheckedChange = {
-                        showDisableAllModules = it
-                        prefs.edit().putBoolean("show_disable_all_modules", it).apply()
                     }
                 )
             }

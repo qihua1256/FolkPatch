@@ -563,11 +563,7 @@ class MainActivity : AppCompatActivity() {
 fun UnofficialVersionDialog() {
     val uriHandler = LocalUriHandler.current
     
-    // 6秒后强制退出
-    LaunchedEffect(Unit) {
-        delay(3000)
-        exitProcess(0)
-    }
+    // 不要退出做个乖宝宝
 
     BasicAlertDialog(
         onDismissRequest = { /* Cannot dismiss */ },
@@ -612,9 +608,6 @@ fun UnofficialVersionDialog() {
 @Composable
 private fun BottomBar(navController: NavHostController) {
     val context = LocalContext.current
-    if (!APApplication.isSignatureValid) {
-        UnofficialVersionDialog()
-    }
     val state by APApplication.apStateLiveData.observeAsState(APApplication.State.UNKNOWN_STATE)
     val navigator = navController.rememberDestinationsNavigator()
 

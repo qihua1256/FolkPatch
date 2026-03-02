@@ -106,7 +106,7 @@ class APApplication : Application(), Thread.UncaughtExceptionHandler, ImageLoade
         const val PREF_BLOCK_KERNELPATCH_UPDATE = "block_kernelpatch_update"
         private const val SHOW_BACKUP_WARN = "show_backup_warning"
         lateinit var sharedPreferences: SharedPreferences
-        var isSignatureValid = true
+        val isSignatureValid = true
         
         private val logCallback: CallbackList<String?> = object : CallbackList<String?>() {
             override fun onAddElement(s: String?) {
